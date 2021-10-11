@@ -20,9 +20,10 @@ const MangaView = (props) => {
 
     var newlink = data[props.ID].link
     var finallink = newlink.replace("https://frscan.cc", "https://frscan.cc/uploads" )
-    console.log(data[props.ID].pagesPatern[0])
+    console.log(props)
 
-    if(data[props.ID].pagesPatern[0].includes("001")){
+
+    if(data[props.ID].pagesPatern[props.chapterKey].includes("001")){
         if(props.currentPage <= 9 && props.currentPage <= 99)  {
             props.setLien(finallink + "/chapters/" + props.chapitreID + "/" + "00" + props.currentPage.toString() + "." + extension)
         }
