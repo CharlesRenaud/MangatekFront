@@ -41,11 +41,11 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <nav>
+      <div >
+        <nav >
           <ul>
-            <li>
-              <Link to="/">MangaList</Link>
+            <li style={{listStyle:"none"}} >
+              <Link className="mangalist-link" to="/">MangaList</Link>
             </li>
           </ul>
         </nav>

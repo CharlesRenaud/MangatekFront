@@ -1,11 +1,6 @@
 import Data from '../combogriffe.json'
-import React, { useState, useEffect } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React from 'react';
+
 
 
 const MangaView = (props) => {
@@ -27,7 +22,7 @@ const MangaView = (props) => {
 
     const DefineLink = (e) => {
         console.log(e)
-    if(e != undefined){
+    if(e !== undefined){
         var tooglerTypes = props.lien.substring(0, props.lien.length - 3);
         var tooglerTyp = tooglerTypes.toString() + "png"
         var tooglerType = tooglerTyp.toString()
@@ -103,6 +98,8 @@ const MangaView = (props) => {
         }
     }
 
+
+
     
 
 
@@ -110,8 +107,8 @@ const MangaView = (props) => {
     return (
         <div>
                 {props.currentPage} - 
-                 {props.chapitreID}
-                <img  onError={(e)=> {DefineLink(e)}} onClick={() => { PageIncrement(props.currentPage)}} style={{width: "50%"}} src={props.lien} />
+                {props.chapitreID}
+                <img onError={(e)=> {DefineLink(e)}} onClick={() => { PageIncrement(props.currentPage)}} style={{width: "50%"}} src={props.lien} />
 
         </div>
     );
