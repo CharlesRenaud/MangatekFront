@@ -5,14 +5,23 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    useHistory
   } from "react-router-dom";
+
 const MangaLinks = (props) => {
     const data = Data.Tableau
     const store = []
     const links = []
     const chapterID = []
     var nbrChapitre
+    window.scroll(0, 0)
+
+    const history = useHistory();
+    function handleChange(value) {
+        Yay(value)
+        history.push(`/manga-view`);
+      }
 
 
     const NombreChapitres = () => {
@@ -53,15 +62,38 @@ const MangaLinks = (props) => {
     }
      
     return (
-        <div>
-            {
-                links.map((numero, key) =>
-                    <Link onClick={() => Yay(key)}  to="manga-view">
-                       Chapitre : {chapterID[props.ID][numero]}
-                    </Link>    
-                )
-            }
-        </div>
+        <div className="chapter-box">
+            <div className="manga-presentation-box">
+                <div className="manga-presentation-box-top">
+                    <p className="manga-name">{props.name} - </p>
+                    <p className="manga-description">{data[props.ID].description}</p>
+                    <div class="selector-box">
+                        <select onChange={event => handleChange(event.target.value)} className="selector">
+                        <option value="">Choisir un Chapitre</option>
+                        {
+                            links.map((numero, key ) =>
+                            <option value={numero}>{chapterID[props.ID][numero]}</option>
+                            )
+                        }
+                        </select>
+                    </div>
+                </div>
+                <div className="manga-presentation-box-bottom">
+                    <img className="cover-manga" src={data[props.ID].cover} />
+                </div>
+            </div>
+            
+            <p style={{paddingLeft: "2rem" }} className="manga-name">Liste des Chapitres : </p>
+            <div className="chapter-flex">
+                {
+                    links.map((numero, key) =>
+                        <Link className="list-chapters" onClick={() => Yay(key)}  to="manga-view">
+                            Chapitre : {chapterID[props.ID][numero]}
+                        </Link>    
+                    )
+                }
+            </div>
+        </div>    
     );
 };
 

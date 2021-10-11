@@ -22,7 +22,7 @@ const MangaList = (props) => {
         <div className="mangalist-box">
             <input type="text" placeholder="Recherche..." onChange={(event)=>{setsearchTerm(event.target.value)}} />
             <div className="manga-box">
-            {
+                {
                 data.filter((val) => {
                     if(searchTerm ==""){
                         return val
