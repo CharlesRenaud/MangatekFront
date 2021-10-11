@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.manga-box{
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+  width:100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.849);
+  color:white;
+}
+.manga-card > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: none;
+  font-weight: bold;
+}
+.manga-card > p{
+  font-weight: bold;
+}
+.manga-card{
+  display:flex;
+  flex-direction: column;
+  flex: 1 0 21%; /* explanation below */
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.manga-links{
+  border:1px solid red;
+}

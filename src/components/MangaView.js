@@ -1,49 +1,93 @@
-import React from 'react';
 import Data from '../combogriffe.json'
+import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 const MangaView = (props) => {
     const data = Data.Tableau
-    const store = []
-    const links = []
-    const chapterID = []
-    var nbrChapitre
+    console.log(props.lien)
 
-    const NombreChapitres = () => {
-        for( let i = 0; i <= data.length-1; i++){
-            const nbrChapters = Data.Tableau[i].nbrChapter
-            store.push(nbrChapters)
-        }
-        return  nbrChapitre = store[props.ID]
+    function get_url_extension( url ) {
+        return url.split(/[#?]/)[0].split('.').pop().trim();
     }
-    NombreChapitres()
 
+    var extension = get_url_extension(props.lien);
+
+    var newlink = data[props.ID].link
+    var finallink = newlink.replace("https://frscan.cc", "https://frscan.cc/uploads" )
+    console.log(data[props.ID].pagesPatern[0])
+
+    if(data[props.ID].pagesPatern[0].includes("001")){
+        if(props.currentPage <= 9 && props.currentPage <= 99)  {
+            props.setLien(finallink + "/chapters/" + props.chapitreID + "/" + "00" + props.currentPage.toString() + "." + extension)
+        }
+        else if(props.currentPage > 9 && props.currentPage <= 99) {
+            props.setLien(finallink + "/chapters/" + props.chapitreID + "/0" + props.currentPage.toString() + "."+ extension)
+        }
+        else if(props.currentPage > 99) {
+            props.setLien(finallink + "/chapters/" + props.chapitreID + "/" + props.currentPage.toString() + "."+ extension)
+        }
+    }
+    else{
+        if( props.currentPage <= 9){
+            props.setLien(finallink + "/chapters/" + props.chapitreID + "/" + "0" + props.currentPage.toString() + "." + extension)
+        }
+        else{
+            props.setLien(finallink + "/chapters/" + props.chapitreID + "/" + props.currentPage.toString() + "."+ extension)
+        }
+    }
+
+   
+
+    
+  
+   
+    const chapterID = []
     const ChaptersID = () => {
         for( let z = 0; z <= data.length-1; z++){
             const chapterzID = Data.Tableau[z].ChapterId
             chapterID.push(chapterzID)
         }
-    console.log(chapterID)
-    }
-    ChaptersID()
+    return chapterID
+    }    
+  
 
-    const GenerateLinks = () => {
-        for (let u = 0; u < nbrChapitre; u ++) {
-            links.push(u)
+    const PageIncrement = (currentPage) => {
+        ChaptersID()
+
+        console.log(data[props.ID])
+        console.log(chapterID)
+
+        console.log( data[props.ID].pagePerChapter[props.chapterKey])
+        if(currentPage < (data[props.ID].pagePerChapter[props.chapterKey])){
+            props.setCurrentPage(currentPage + 1)
+        }
+        else{
+            if((props.chapterKey < data[props.ID].nbrChapter) && (props.chapterKey > 0)){
+                props.setCurrentPage(1)
+                props.setChapterKey(props.chapterKey - 1)
+                props.setChapterId(chapterID[props.ID][(props.chapterKey-1)])
+                console.log("hla")
+            }
+            else{
+                props.setCurrentPage(1)
+                alert("Manga terminé")
+            }
         }
     }
-    GenerateLinks()
 
-  
-     
+
     return (
         <div>
-            {
-                links.map((numero) =>
-                    <div>
-                       Chapitre : {chapterID[props.ID][numero]}
-                    </div>    
-                )
-            }
+                {props.currentPage} - 
+                 {props.chapitreID}
+                <img  onClick={() => { PageIncrement(props.currentPage)}} style={{width: "50%"}} src={props.lien} />
+
         </div>
     );
 };

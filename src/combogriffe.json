@@ -1,136 +1,229 @@
+{"Tableau" : [{
+"identifiant":0,
+"name":":Rebirth",
+"cover":"//frscan.cc/uploads/manga/rebirth/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/rebirth",
+"description":"Que ferriez-vous si il vous était donné la chance de remonter le temps et de revivre votre passé ? Ferriez-vous ce que vous avez fait à l'époque par crainte de l'effet papillon ? Ou voudiez-vous prendre une autre voie et laisser l'avenir parler de lui-même ?",
+"nbrChapter":"22",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/rebirth/chapters/21/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/20/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/19/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/18/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/17/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/16/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/15/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/14/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/13/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/12/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/11/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/10/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/9/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/8/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/7/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/6/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/5/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/4/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/3/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/2/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/1/01.jpg", "//frscan.cc/uploads/manga/rebirth/chapters/0/01.jpg"],
+"ChapterId":["21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"],
+"pagePerChapter":[35, 56, 30, 29, 32, 64, 35, 39, 36, 48, 67, 56, 42, 58, 48, 57, 58, 44, 47, 27, 43, 34]
+},
 {
-    "Tableau": [ 
-        {
-            "name":":Rebirth",
-            "link":"https://frscan.cc/manga/rebirth",
-            "nbrChapter":"22",
-            "ChapterId": [21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
-            "pagePerChapter": [35, 56, 30, 29, 32, 64, 35, 39, 36, 48, 67, 56, 42, 58, 48, 57, 58, 44, 47, 27, 43, 34]
-        },
-    {
-    "name":".Hack//Le Bracelet Du Crépuscule",
-    "link":"https://frscan.cc/manga/hackle-bracelet-du-crpuscule",
-    "nbrChapter":"25",
-    "ChapterId":[21.6, 21.5, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6.5, 6, 5, 4, 3, 2, 1, 0],
-    "pagePerChapter": [1, 21, 13, 14, 13, 13, 9, 13, 13, 14, 18, 16, 13, 14, 13, 13, 18, 3, 13, 13, 13, 13, 13, 16, 9]
-    },
-    {
-    "name":"“It’s Too Precious And Hard To Read !!” 4P Short Stories",
-    "link":"https://frscan.cc/manga/its-too-precious-and-hard-to-read-4p-short-stories",
-    "nbrChapter":"1",
-    "ChapterId":"['1']",
-    "pagePerChapter":"[6]"
-    },
-    {
-    "name":"+Anima",
-    "link":"https://frscan.cc/manga/anima",
-    "nbrChapter":"10",
-    "ChapterId":"['10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[104, 107, 108, 108, 108, 107, 108, 108, 108, 100]"
-    },
-    {
-    "name":"0.0 MHZ",
-    "link":"https://frscan.cc/manga/00-mhz",
-    "nbrChapter":"5",
-    "ChapterId":"['4', '3', '2', '1', '0']",
-    "pagePerChapter":"[28, 28, 27, 28, 8]"
-    },
-    {
-    "name":"1-nen A-gumi No Monster",
-    "link":"https://frscan.cc/manga/1nen-agumi-no-monster",
-    "nbrChapter":"2",
-    "ChapterId":"['2', '1']",
-    "pagePerChapter":"[29, 55]"
-    },
-    {
-    "name":"100 Demons Of Love",
-    "link":"https://frscan.cc/manga/100-demons-of-love",
-    "nbrChapter":"4",
-    "ChapterId":"['4', '3', '2', '1']",
-    "pagePerChapter":"[38, 36, 38, 42]"
-    },
-    {
-    "name":"100-Nin No Eiyuu O Sodateta Saikyou Yogensha Wa, Boukensha Ni Natte Mo Sekaijuu No Deshi Kara Shitawarete Masu",
-    "link":"https://frscan.cc/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu",
-    "nbrChapter":"4",
-    "ChapterId":"['4', '3', '2', '1']",
-    "pagePerChapter":"[22, 24, 24, 23]"
-    },
-    {
-    "name":"13 Club",
-    "link":"https://frscan.cc/manga/13-club",
-    "nbrChapter":"11",
-    "ChapterId":"['11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[32, 33, 27, 67, 33, 27, 28, 25, 32, 33, 46]"
-    },
-    {
-    "name":"18 unlimited",
-    "link":"https://frscan.cc/manga/18-unlimited",
-    "nbrChapter":"33",
-    "ChapterId":"['34', '33', '32', '31', '30', '29', '28', '27', '26', '24', '23', '22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 3, 18, 17, 5, 5, 4, 4, 3, 3, 3, 3, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]"
-    },
-    {
-    "name":"20 Twenty",
-    "link":"https://frscan.cc/manga/20-twenty",
-    "nbrChapter":"62",
-    "ChapterId":"['62', '61', '60', '59', '58', '57', '56', '55', '54', '53', '52', '51', '50', '49', '48', '47', '46', '45', '44', '43', '42', '41', '40', '39', '38', '37', '36', '35', '34', '33', '32', '31', '30', '29', '28', '27', '26', '25', '24', '23', '22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[4, 5, 4, 3, 5, 5, 4, 5, 5, 6, 4, 4, 4, 1, 4, 4, 4, 4, 5, 3, 4, 4, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 3, 4, 4, 3, 3, 4, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]"
-    },
-    {
-    "name":"20th Century Boys",
-    "link":"https://frscan.cc/manga/20th-century-boys",
-    "nbrChapter":"22",
-    "ChapterId":"['22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[121, 96, 100, 89, 102, 112, 106, 91, 91, 98, 114, 107, 102, 101, 94, 103, 109, 107, 99, 100, 106, 108]"
-    },
-    {
-    "name":"21st Century Boys",
-    "link":"https://frscan.cc/manga/21st-century-boys",
-    "nbrChapter":"2",
-    "ChapterId":"['2', '1']",
-    "pagePerChapter":"[62, 98]"
-    },
-    {
-    "name":"29-Sai Dokushin Wa Isekai De Jiyuu Ni Ikita……katta",
-    "link":"https://frscan.cc/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta",
-    "nbrChapter":"10",
-    "ChapterId":"['4.1', '3.4', '3.3', '3.2', '3.1', '2.2', '2.1', '1.2', '1.1', '0']",
-    "pagePerChapter":"[10, 10, 13, 12, 12, 10, 12, 28, 24, 7]"
-    },
-    {
-    "name":"3cm Hunter",
-    "link":"https://frscan.cc/manga/3cm-hunter",
-    "nbrChapter":"22",
-    "ChapterId":"['22', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[8, 8, 8, 8, 8, 7, 8, 8, 9, 7, 8, 8, 9, 8, 5, 7, 8, 8, 7, 8, 5, 7]"
-    },
-    {
-    "name":"4Life",
-    "link":"https://frscan.cc/manga/4life",
-    "nbrChapter":"12",
-    "ChapterId":"['12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1']",
-    "pagePerChapter":"[14, 43, 57, 36, 41, 18, 25, 24, 43, 50, 22, 46]"
-    },
-    {
-    "name":"6 No Trigger",
-    "link":"https://frscan.cc/manga/6-no-trigger",
-    "nbrChapter":"2",
-    "ChapterId":"['2', '1']",
-    "pagePerChapter":"[43, 51]"
-    },
-    {
-    "name":"9 Dan Girl",
-    "link":"https://frscan.cc/manga/9-dan-girl",
-    "nbrChapter":"7",
-    "ChapterId":"['6', '5', '4', '3', '2', '1', '0']",
-    "pagePerChapter":"[9, 7, 8, 10, 8, 16, 8]"
-    },
-    {
-    "name":"A Capable Maid",
-    "link":"https://frscan.cc/manga/a-capable-maid",
-    "nbrChapter":"2",
-    "ChapterId":"['2', '1']",
-    "pagePerChapter":"[30, 28]"
-    }
+"identifiant":1,
+"name":".Hack//Le Bracelet Du Crépuscule",
+"cover":"//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/hackle-bracelet-du-crpuscule",
+"description":"Les jumeaux Shugo et Lena ont été sélectionné pour incarner les avatars des héros légendaires 'Kite' et 'Black Rose' dans 'The world', le plus grand jeu en ligne jamais crée. Dans ce monde virtuel, ils vont faire la rencontre de bien étranges personnages surtout depuis que Shugo a hérité d'un bracelet aux mystérieux pouvoirs. Ils entament alors la quête qui leur a été confiées, partir à la recherche des .hackers (dot.hackers) et sauver le monde virtuel...",
+"nbrChapter":"25",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["none", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/21.5/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/21/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/20/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/19/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/18/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/17/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/16/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/15/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/14/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/13/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/12/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/11/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/10/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/9/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/8/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/7/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/6.5/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/6/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/5/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/4/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/3/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/2/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/1/01.jpg", "//frscan.cc/uploads/manga/hackle-bracelet-du-crpuscule/chapters/0/01.jpg"],
+"ChapterId":["0", "21.5", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6.5", "6", "5", "4", "3", "2", "1", "0"],
+"pagePerChapter":[1, 21, 13, 14, 13, 13, 9, 13, 13, 14, 18, 16, 13, 14, 13, 13, 18, 3, 13, 13, 13, 13, 13, 16, 9]
+},
+{
+"identifiant":2,
+"name":"“It’s Too Precious And Hard To Read !!” 4P Short Stories",
+"cover":"//frscan.cc/uploads/manga/its-too-precious-and-hard-to-read-4p-short-stories/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/its-too-precious-and-hard-to-read-4p-short-stories",
+"description":"À venir...",
+"nbrChapter":"1",
+"pagesPatern":["01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/its-too-precious-and-hard-to-read-4p-short-stories/chapters/1/01.jpg"],
+"ChapterId":["1"],
+"pagePerChapter":[6]
+},
+{
+"identifiant":3,
+"name":"+Anima",
+"cover":"//frscan.cc/uploads/manga/anima/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/anima",
+"description":"Il existe sur Terre des êtres humains aux facultés étranges : les +Anima. Ces hommes et ces femmes possèdent en eux la faculté d’exprimer de façon physique l’attribut animal qui est leur. Des ailes, qu’elles soient d’oiseau ou de chauve-souris, une queue de poisson, une patte d’ours... Cooro, onze ans, +Anima du corbeau, décide de parcourir le monde à la recherche d’autres +Anima. En chemin, il rencontre Husky, un +Anima poisson, Senri, un +Anima de l’ours, et Nana, un +Anima de la chauve-souris.",
+"nbrChapter":"10",
+"pagesPatern":["001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg", "001.jpg"],
+"urlPerChapter":["http://www.frscan.cc/uploads/manga/anima/chapters/0010/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0009/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0008/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0007/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0006/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0005/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0004/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0003/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0002/001.jpg", "http://www.frscan.cc/uploads/manga/anima/chapters/0001/001.jpg"],
+"ChapterId":["0010", "0009", "0008", "0007", "0006", "0005", "0004", "0003", "0002", "0001"],
+"pagePerChapter":[104, 107, 108, 108, 108, 107, 108, 108, 108, 100]
+},
+{
+"identifiant":4,
+"name":"0.0 MHZ",
+"cover":"//frscan.cc/uploads/manga/00-mhz/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/00-mhz",
+"description":"a venir...",
+"nbrChapter":"5",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/00-mhz/chapters/4/01.jpg", "//frscan.cc/uploads/manga/00-mhz/chapters/3/01.jpg", "//frscan.cc/uploads/manga/00-mhz/chapters/2/01.jpg", "//frscan.cc/uploads/manga/00-mhz/chapters/1/01.jpg", "//frscan.cc/uploads/manga/00-mhz/chapters/0/01.jpg"],
+"ChapterId":["4", "3", "2", "1", "0"],
+"pagePerChapter":[28, 28, 27, 28, 8]
+},
+{
+"identifiant":5,
+"name":"1-nen A-gumi No Monster",
+"cover":"//frscan.cc/uploads/manga/1nen-agumi-no-monster/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/1nen-agumi-no-monster",
+"description":"Dans un lycée privé pour jeunes filles, il existe une classe réputée ingérable, ses élèves comprennent des harceleuses et autres maître-chanteurs dont la spécialité est de faire virer leur professeur principal en moins d'une semaine. Le corps enseignant de l'établissement les appelle 'La classe des Monstres', car bien qu'énervantes et hors de contrôle, ces jeunes filles sont trop influentes, grâce à leur famille ou leur travail, pour être expulsées si facilement. C'est dans cette situation désespérée que l'administration embauche Jimi Tarou, un professeur possédant plusieurs spécialités (maths, physique, et autres matières scientifiques) mais aussi extrêmement banal en apparence. Cet enseignant beaucoup trop commun devra résoudre le problème de cette classe et leur redonner le goût de l'apprentissage, quitte à jouer en-dehors des règles de temps en temps.",
+"nbrChapter":"2",
+"pagesPatern":["01.png", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/1nen-agumi-no-monster/chapters/2/01.png", "//frscan.cc/uploads/manga/1nen-agumi-no-monster/chapters/1/01.jpg"],
+"ChapterId":["2", "1"],
+"pagePerChapter":[29, 55]
+},
+{
+"identifiant":6,
+"name":"100 Demons Of Love",
+"cover":"//frscan.cc/uploads/manga/100-demons-of-love/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/100-demons-of-love",
+"description":"Coco, 15 ans est une jeune fille qui a la particularité de voir les fantômes. Mais un jour, en allant au lycée elle voit pour la première fois deux démons, deux frères terriblement beaux : Reo et Toa. Alors qu’elle se fait agresser par l’esprit d’un chien noir, Coco, pleine de pitié pour cet esprit, dégage un pouvoir spécial qui va intéresser les deux frères démons. Quel est ce pouvoir qui habite la jeune et qui attire les démons?",
+"nbrChapter":"4",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/100-demons-of-love/chapters/4/01.jpg", "//frscan.cc/uploads/manga/100-demons-of-love/chapters/3/01.jpg", "//frscan.cc/uploads/manga/100-demons-of-love/chapters/2/01.jpg", "//frscan.cc/uploads/manga/100-demons-of-love/chapters/1/01.jpg"],
+"ChapterId":["4", "3", "2", "1"],
+"pagePerChapter":[38, 36, 38, 42]
+},
+{
+"identifiant":7,
+"name":"100-Nin No Eiyuu O Sodateta Saikyou Yogensha Wa, Boukensha Ni Natte Mo Sekaijuu No Deshi Kara Shitawarete Masu",
+"cover":"//frscan.cc/uploads/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu",
+"description":"Élevant une centaine de héros et mettant fin à la guerre avec un dieu maléfique, Eisen a sauvé le monde. Après avoir été gravement blessé en protégeant les héros, il est parti dans l'Autre Monde pour se rétablir. Pendant ce temps, les héros ont fait usage de leurs capacités pour contribuer grandement au développement du monde. Désireux de rencontrer à nouveau le maître qu'ils admiraient, ils lui firent un compte rendu détaillé de leurs réalisations. En lisant leurs lettres, Eisen prend la décision de partir et de rendre visite à chacun d'entre eux au cours de son voyage à travers le pays.",
+"nbrChapter":"4",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu/chapters/4/01.jpg", "//frscan.cc/uploads/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu/chapters/3/01.jpg", "//frscan.cc/uploads/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu/chapters/2/01.jpg", "//frscan.cc/uploads/manga/100nin-no-eiyuu-o-sodateta-saikyou-yogensha-wa-boukensha-ni-natte-mo-sekaijuu-no-deshi-kara-shitawarete-masu/chapters/1/01.jpg"],
+"ChapterId":["4", "3", "2", "1"],
+"pagePerChapter":[22, 24, 24, 23]
+},
+{
+"identifiant":8,
+"name":"13 Club",
+"cover":"//frscan.cc/uploads/manga/13-club/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/13-club",
+"description":"À venir...",
+"nbrChapter":"11",
+"pagesPatern":["01.png", "01.png", "01.png", "01.png", "01.png", "01.png", "01.png", "01.png", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/13-club/chapters/11/01.png", "//frscan.cc/uploads/manga/13-club/chapters/10/01.png", "//frscan.cc/uploads/manga/13-club/chapters/9/01.png", "//frscan.cc/uploads/manga/13-club/chapters/8/01.png", "//frscan.cc/uploads/manga/13-club/chapters/7/01.png", "//frscan.cc/uploads/manga/13-club/chapters/6/01.png", "//frscan.cc/uploads/manga/13-club/chapters/5/01.png", "//frscan.cc/uploads/manga/13-club/chapters/4/01.png", "//frscan.cc/uploads/manga/13-club/chapters/3/01.jpg", "//frscan.cc/uploads/manga/13-club/chapters/2/01.jpg", "//frscan.cc/uploads/manga/13-club/chapters/1/01.jpg"],
+"ChapterId":["11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[32, 33, 27, 67, 33, 27, 28, 25, 32, 33, 46]
+},
+{
+"identifiant":9,
+"name":"18 unlimited",
+"cover":"//frscan.cc/uploads/manga/18-unlimited/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/18-unlimited",
+"description":"À l'école secondaire Clear Waters High School, le joyeux et plein d'humour Justin était un bon ami de Ian, le président de classe . Cependant, à cause d'un mot inattendue, ils sont devenus un couple aux yeux des autres. A 18 ans, ils ont 18 ans et leur ' amitié ' peut-elle faire un pas de plus ?",
+"nbrChapter":"33",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/18-unlimited/chapters/34/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/33/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/32/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/31/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/30/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/29/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/28/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/27/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/26/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/24/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/23/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/22/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/21/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/20/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/19/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/18/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/17/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/16/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/15/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/14/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/13/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/12/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/11/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/10/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/9/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/8/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/7/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/6/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/5/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/4/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/3/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/2/01.jpg", "//frscan.cc/uploads/manga/18-unlimited/chapters/1/01.jpg"],
+"ChapterId":["34", "33", "32", "31", "30", "29", "28", "27", "26", "24", "23", "22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 3, 18, 17, 5, 5, 4, 4, 3, 3, 3, 3, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+},
+{
+"identifiant":10,
+"name":"20 Twenty",
+"cover":"//frscan.cc/uploads/manga/20-twenty/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/20-twenty",
+"description":"Le jeune Nathan devient un garçon retiré et asocial à cause des circonstances de son enfance. C'est alors qu'il rencontre Sherwin, et peu à peu, sa vie commence à changer... Se pourrait-il que Sherwin soit ce que Nathan attendait tant ?",
+"nbrChapter":"62",
+"pagesPatern":["01.png", "01.png", "01.png", "01.png", "01.png", "01.png", "01.png", "01.jpg", "01.png", "01.png", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/20-twenty/chapters/62/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/61/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/60/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/59/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/58/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/57/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/56/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/55/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/54/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/53/01.png", "//frscan.cc/uploads/manga/20-twenty/chapters/52/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/51/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/50/01.jpg", "none", "//frscan.cc/uploads/manga/20-twenty/chapters/48/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/47/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/46/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/45/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/44/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/43/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/42/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/41/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/40/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/39/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/38/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/37/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/36/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/35/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/34/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/33/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/32/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/31/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/30/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/29/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/28/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/27/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/26/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/25/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/24/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/23/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/22/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/21/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/20/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/19/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/18/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/17/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/16/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/15/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/14/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/13/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/12/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/11/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/10/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/9/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/8/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/7/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/6/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/5/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/4/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/3/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/2/01.jpg", "//frscan.cc/uploads/manga/20-twenty/chapters/1/01.jpg"],
+"ChapterId":["62", "61", "60", "59", "58", "57", "56", "55", "54", "53", "52", "51", "50", "50", "48", "47", "46", "45", "44", "43", "42", "41", "40", "39", "38", "37", "36", "35", "34", "33", "32", "31", "30", "29", "28", "27", "26", "25", "24", "23", "22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[4, 5, 4, 3, 5, 5, 4, 5, 5, 6, 4, 4, 4, 1, 4, 4, 4, 4, 5, 3, 4, 4, 4, 3, 4, 4, 4, 4, 5, 4, 4, 3, 4, 4, 3, 3, 4, 4, 3, 3, 4, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+},
+{
+"identifiant":11,
+"name":"20th Century Boys",
+"cover":"//frscan.cc/uploads/manga/20th-century-boys/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/20th-century-boys",
+"description":"Kenji est un jeune homme tenant la boutique de son défunt père après l'avoir transformée en convini. Mais un jour, suite à une visite de la police, il apprend l'existence d'une organisation dont le chef est un certain 'Ami'. Apparement impliqué dans diverses affaires louches, Kenji découvre petit à petit qu'il existe alors des liens entre ce dernier et son enfance. C'est à ce moment qu'il croise la route d'un homme mourant appartenant à cette organisation. Celui-ci lui affirme, avant de lâcher son dernier soupir, qu'il est le seul à pouvoir sauver la terre d'Ami...",
+"nbrChapter":"22",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/20th-century-boys/chapters/22/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/21/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/20/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/19/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/18/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/17/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/16/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/15/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/14/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/13/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/12/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/11/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/10/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/9/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/8/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/7/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/6/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/5/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/4/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/3/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/2/01.jpg", "//frscan.cc/uploads/manga/20th-century-boys/chapters/1/01.jpg"],
+"ChapterId":["22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[121, 96, 100, 89, 102, 112, 106, 91, 91, 98, 114, 107, 102, 101, 94, 103, 109, 107, 99, 100, 106, 108]
+},
+{
+"identifiant":12,
+"name":"21st Century Boys",
+"cover":"//frscan.cc/uploads/manga/21st-century-boys/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/21st-century-boys",
+"description":"La suite et fin de la série 20th Century Boys. Kenji est confronté à un grave problème, une bombe menace d'exploser et de détruire tout ce qui l'entoure. Il va devoir revenir dans le passé grâce à un système virtuel et retrouver parmi tout ses souvenirs où se trouve la télécommande d'arrêt de la bombe...",
+"nbrChapter":"2",
+"pagesPatern":["01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/21st-century-boys/chapters/2/01.jpg", "//frscan.cc/uploads/manga/21st-century-boys/chapters/1/01.jpg"],
+"ChapterId":["2", "1"],
+"pagePerChapter":[62, 98]
+},
+{
+"identifiant":13,
+"name":"29-Sai Dokushin Wa Isekai De Jiyuu Ni Ikita……katta",
+"cover":"//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta",
+"description":"Le synopsis sera ajouté plus tard.",
+"nbrChapter":"10",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/4.1/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/3.4/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/3.3/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/3.2/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/3.1/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/2.2/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/2.1/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/1.2/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/1.1/01.jpg", "//frscan.cc/uploads/manga/29sai-dokushin-wa-isekai-de-jiyuu-ni-ikitakatta/chapters/0/01.jpg"],
+"ChapterId":["4.1", "3.4", "3.3", "3.2", "3.1", "2.2", "2.1", "1.2", "1.1", "0"],
+"pagePerChapter":[10, 10, 13, 12, 12, 10, 12, 28, 24, 7]
+},
+{
+"identifiant":14,
+"name":"3cm Hunter",
+"cover":"//frscan.cc/uploads/manga/3cm-hunter/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/3cm-hunter",
+"description":"A venir ...",
+"nbrChapter":"22",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/3cm-hunter/chapters/22/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/21/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/20/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/19/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/18/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/17/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/16/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/15/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/14/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/13/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/12/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/11/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/10/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/9/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/8/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/7/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/6/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/5/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/4/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/3/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/2/01.jpg", "//frscan.cc/uploads/manga/3cm-hunter/chapters/1/01.jpg"],
+"ChapterId":["22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[8, 8, 8, 8, 8, 7, 8, 8, 9, 7, 8, 8, 9, 8, 5, 7, 8, 8, 7, 8, 5, 7]
+},
+{
+"identifiant":15,
+"name":"4Life",
+"cover":"//frscan.cc/uploads/manga/4life/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/4life",
+"description":"Alors qu’elles étaient tranquillement installées dans le bus en direction d’un concours de cosplays, quatre amies sont victimes d’un accident de la route. À leur réveil à l’hôpital, plus rien n’est pareil ; elles développent des pouvoirs liés aux tenues qu’elles portaient au moment de l’accident. Quand les jeunes filles commencent à découvrir l’étendue de leurs nouvelles capacités, de mystérieuses créatures envahissent la ville et semblent attirées par les adolescentes et leurs costumes. Ces dernières doivent alors s’organiser pour faire face à deux grandes menaces : les ombres qui les traquent et avalent la ville, mais aussi leurs costumes qui semblent prendre peu à peu possession d’elles. Désormais, les quatre amies doivent lutter ensemble pour comprendre l’origine de cette transformation, et pour ne pas disparaître...",
+"nbrChapter":"12",
+"pagesPatern":["01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/4life/chapters/12/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/11/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/10/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/9/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/8/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/7/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/6/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/5/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/4/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/3/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/2/01.jpg", "//frscan.cc/uploads/manga/4life/chapters/1/01.jpg"],
+"ChapterId":["12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+"pagePerChapter":[14, 43, 57, 36, 41, 18, 25, 24, 43, 50, 22, 46]
+},
+{
+"identifiant":16,
+"name":"6 No Trigger",
+"cover":"//frscan.cc/uploads/manga/6-no-trigger/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/6-no-trigger",
+"description":"L'assassin Tsubame est en fait 4 personnes différentes avec chacune une spécialité d'assassinat différente : Pengouin (un petit garçon silencieux doué pour le tir de précision), Washi (un personnage immense avec une mitrailleuse greffée à partir de l'épaule), Suzume (une jolie fille ayant une paire de pistolets pour armes de prédilection) et, bien sûr, Tsubame... Les échanges se font en fonction de la main mécanique équipée. Comment Tsubame en est-il arrivé là ? Quel est le secret de ce bras ? À vous de le découvrir...",
+"nbrChapter":"2",
+"pagesPatern":["01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/6-no-trigger/chapters/2/01.jpg", "//frscan.cc/uploads/manga/6-no-trigger/chapters/1/01.jpg"],
+"ChapterId":["2", "1"],
+"pagePerChapter":[43, 51]
+},
+{
+"identifiant":17,
+"name":"9 Dan Girl",
+"cover":"//frscan.cc/uploads/manga/9-dan-girl/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/9-dan-girl",
+"description":"'Il y a dix ans vous m'avez laissée tomber parce que j'étais une fille, aujourd'hui, qui peut gagner contre moi ?!',Yun Ruiwen va montrer au monde que le Go professionnel n'est pas qu'un monde d'hommes.",
+"nbrChapter":"7",
+"pagesPatern":["01.jpg", "01.jpg", "01.png", "01.png", "01.png", "01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/9-dan-girl/chapters/6/01.jpg", "//frscan.cc/uploads/manga/9-dan-girl/chapters/5/01.jpg", "//frscan.cc/uploads/manga/9-dan-girl/chapters/4/01.png", "//frscan.cc/uploads/manga/9-dan-girl/chapters/3/01.png", "//frscan.cc/uploads/manga/9-dan-girl/chapters/2/01.png", "//frscan.cc/uploads/manga/9-dan-girl/chapters/1/01.jpg", "//frscan.cc/uploads/manga/9-dan-girl/chapters/0/01.jpg"],
+"ChapterId":["6", "5", "4", "3", "2", "1", "0"],
+"pagePerChapter":[9, 7, 8, 10, 8, 16, 8]
+},
+{
+"identifiant":18,
+"name":"A Capable Maid",
+"cover":"//frscan.cc/uploads/manga/a-capable-maid/cover/cover_250x350.jpg",
+"link":"https://frscan.cc/manga/a-capable-maid",
+"description":"Masatsugu a été amené d'un autre monde par une invocation de héros et a fini par faire partie de la caste la plus basse possible.,Ce garçon, qui ne possède que des compétences élémentaires, est en train de gérer un orphelinat plein de belles filles !,Mais, ses jours ennuyeux ne font que commencer alors qu'il trouve le bâtiment en ruines, il doit aussi rembourser l'énorme dette que l'ancien directeur a laissé !,Et ce n'est pas tout, il n'a pas le temps de se reposer de tous les salauds qui menacent l'orphelinat ! Masatsugu et les orphelins pourront-ils protéger leur précieuse résidence ?",
+"nbrChapter":"2",
+"pagesPatern":["01.jpg", "01.jpg"],
+"urlPerChapter":["//frscan.cc/uploads/manga/a-capable-maid/chapters/2/01.jpg", "//frscan.cc/uploads/manga/a-capable-maid/chapters/1/01.jpg"],
+"ChapterId":["2", "1"],
+"pagePerChapter":[30, 28]
+}
 ]}
