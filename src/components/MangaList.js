@@ -20,7 +20,14 @@ const MangaList = (props) => {
 
     return (
         <div className="mangalist-box">
-            <input type="text" placeholder="Recherche..." onChange={(event)=>{setsearchTerm(event.target.value)}} />
+            <nav className="sticky-nav" >
+                <ul>
+                    <li style={{listStyle:"none"}} >
+                    <Link className="mangalist-link" to="/manga-tendances">Tendances</Link>
+                    <input className="recherche-box-input" type="text" placeholder="Recherche..." onChange={(event)=>{setsearchTerm(event.target.value)}} />
+                    </li>
+                </ul>
+            </nav>
             <div className="manga-box">
                 {
                 data.filter((val) => {

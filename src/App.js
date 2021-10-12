@@ -3,6 +3,7 @@ import Data from './combogriffe.json'
 import MangaList from './components/MangaList';
 import MangaLinks from './components/MangaLinks';
 import MangaView from'./components/MangaView';
+import MangaTrend from './components/MangaTrend';
 import {useState} from 'react'
 import {
   BrowserRouter as Router,
@@ -42,17 +43,12 @@ const App = () => {
   return (
     <Router>
       <div >
-        <nav >
-          <ul>
-            <li style={{listStyle:"none"}} >
-              <Link className="mangalist-link" to="/">MangaList</Link>
-            </li>
-          </ul>
-        </nav>
-
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+          <Route path="/manga-tendances">
+            <MangaTrend {...props} />
+          </Route>
           <Route path="/manga-view">
             <MangaView {...props} />
           </Route>

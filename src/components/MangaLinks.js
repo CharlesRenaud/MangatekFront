@@ -63,12 +63,22 @@ const MangaLinks = (props) => {
      
     return (
         <div className="chapter-box">
+            <nav className="sticky-nav" >
+                <ul>
+                    <li style={{listStyle:"none"}} >
+                    <Link className="mangalist-link" to="/manga-tendances">:Tendances</Link>
+                    </li>
+                    <li>
+                    <Link className="mangalist-link" to="/">:Mangas</Link>
+                    </li>
+                </ul>
+            </nav>
             <div className="manga-presentation-box">
                 <div className="manga-presentation-box-top">
                     <p className="manga-name">{props.name} - </p>
                     <p className="manga-description">{data[props.ID].description}</p>
                     <div class="selector-box">
-                        <select onChange={event => handleChange(event.target.value)} className="selector">
+                        <select className="select-chapter" onChange={event => handleChange(event.target.value)} className="selector">
                         <option value="">Choisir un Chapitre</option>
                         {
                             links.map((numero, key ) =>

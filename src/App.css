@@ -49,22 +49,34 @@ html{
   border-bottom:1px solid white;
   font-size: 1.5rem;
 }
-.mangalist-box > input{
-  position: absolute;
-  top:0.5rem;
-  right:37.5%;
+.mangalist-box{
+  position: relative;
+}
+.sticky-nav{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #272727;
+  width:100%;
+}
+.sticky-nav > ul{
+  display: flex;
+  flex-direction: row;
+}
+.sticky-nav > ul >li {
+  padding :1rem;
+}
+.recherche-box-input{
   font-family: inherit;
-  width: 25%;
+  width: 50%;
   border: 0;
   border-bottom: 2px solid gray;
   outline: 0;
   font-size: 1.3rem;
   color: white;
-  padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
-  
-
+  margin-left:2.5rem;
 }
 
 .manga-box{
@@ -109,10 +121,12 @@ html{
 }
 .manga-presentation-box{
   width: 60%;
+  min-width: 60%;
   height:100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 .chapter-flex{
@@ -128,6 +142,7 @@ html{
   color:white;
   font-size: 1.8rem;
   font-weight: bold;
+  margin-top:0;
 }
 .manga-description{
   color:white;
@@ -137,6 +152,7 @@ html{
   background-color: rgb(18, 59, 71);
   text-align: justify;
   max-width: 80%;
+  min-width: 60%;
 }
 
 .cover-manga{
@@ -158,7 +174,41 @@ html{
   color: white;
   text-decoration: none;
   padding: 1rem;
-  margin-bottom: 0.5rem;
   background-color: rgb(46, 182, 228);
   text-align: center;
+}
+
+.selector{
+  min-width: 15rem;
+  background-color: rgb(44, 113, 134);
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  color: white;
+  border:1px solid white;
+  margin-top:2rem;
+
+}
+.selector option {
+  font-weight: bold;
+  font-size: 0.8rem;
+  zoom: 1.5;
+}
+
+
+.Pagebox{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+.Page{
+  width: auto;
+  height: auto;
+  min-width: 55%;
+  max-width: 80%;
+  display: flex;
+ 
 }
