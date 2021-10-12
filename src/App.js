@@ -4,24 +4,28 @@ import MangaList from './components/MangaList';
 import MangaLinks from './components/MangaLinks';
 import MangaView from'./components/MangaView';
 import MangaTrend from './components/MangaTrend';
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  useHistory
 } from "react-router-dom";
 
+
 const App = () => {
+  
+
   const data = Data.Tableau
   console.log(data)
 
-  const [mangaID, setMangaID] = useState()
-  const [chaptrerId, setChapterId] = useState()
-  const [mangaName, setMangaName] = useState()
+  const [mangaID, setMangaID] = useState(0)
+  const [chaptrerId, setChapterId] = useState(0)
+  const [mangaName, setMangaName] = useState(":Rebirth")
   const [currentPage, setCurrentPage] = useState(1)
-  const [chapterKey, setChapterKey] = useState()
-  const [lien, setLien] = useState()
+  const [chapterKey, setChapterKey] = useState(0)
+  const [lien, setLien] = useState("//frscan.cc/uploads/manga/rebirth/chapters/0/01.jpg ")
 
 
   let props = {
@@ -39,9 +43,24 @@ const App = () => {
     lien: lien,
   }
 
+  const history = useHistory()
 
+  useEffect(() => {
+    window.addEventListener("beforeunload", alertUser);
+    return () => {
+      window.removeEventListener("beforeunload", alertUser);
+    };
+  }, []);
+  const alertUser = (e) => {
+    e.preventDefault();
+    e.returnValue = "";
+  };
+  
+
+ 
+                   
   return (
-    <Router>
+    <Router >
       <div >
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

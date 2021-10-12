@@ -113,11 +113,22 @@ DefineLink()
     const store = []
     const links = []
     var nbrChapitre
-
+    console.log(data)
     const history = useHistory();
     function handleChange(value) {
-        Yay(value)
+        if(value !== ""){
+            Yay(value)
+        }
       }
+    function handleChange2(key) {
+        if(key !== ""){
+        props.setChapterKey(key)
+        props.setChapterId(data[props.ID].ChapterId[key]);
+        props.setCurrentPage(0)
+        props.setLien(data[props.ID].urlPerChapter[key])
+        console.log(props.lien)
+        }
+    }
 
 
     const NombreChapitres = () => {
@@ -158,6 +169,16 @@ DefineLink()
 
     }
     ListPageGenerator()
+    var nbrChapitres = []
+
+    var linkss = []
+    const GenerateLinkss = () => {
+        for (let j = 0; j < nbrChapitre; j ++) {
+            linkss.push(j)
+        }
+    }
+    GenerateLinkss()
+
    return (
         <div>
              <nav className="fixed-nav" >
@@ -177,10 +198,22 @@ DefineLink()
                     <li>
                     <div class="selector-box">
                         <select className="select-chapter" onChange={event => handleChange(event.target.value)} className="selector">
-                        <option value="">Choisir une Page</option>
+                        <option value="">Page</option>
                         {
                             nbrPages.map((numero, key ) =>
                             <option value={key}>{numero}</option>
+                            )
+                        }
+                        </select>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="selector-box">
+                        <select className="select-chapter" onChange={event => handleChange2(event.target.value)} className="selector">
+                        <option value="">Chapitre</option>
+                        {
+                           linkss.map((numero, key ) =>
+                            <option value={numero}>{data[props.ID].ChapterId[key]}</option>
                             )
                         }
                         </select>

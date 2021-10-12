@@ -179,7 +179,7 @@ html{
 }
 
 .selector{
-  min-width: 15rem;
+  min-width: 5rem;
   background-color: rgb(44, 113, 134);
   height: auto;
   text-align: center;
@@ -189,13 +189,21 @@ html{
   padding-right: 1rem;
   color: white;
   border:1px solid white;
-  margin-top:2rem;
+  font-size:1rem;
+  max-width: 10rem;
 
 }
 .selector option {
   font-weight: bold;
   font-size: 0.8rem;
   zoom: 1.5;
+}
+.fixed-nav > ul  {
+  display: flex;
+  align-items:center;
+ }
+.fixed-nav > ul >li {
+ list-style: none;
 }
 
 
