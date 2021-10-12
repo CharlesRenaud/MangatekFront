@@ -212,3 +212,39 @@ html{
   display: flex;
  
 }
+
+.fixed-nav{
+  top: 0;
+  background-color: #272727;
+  width:100%;
+}
+.fixed-nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fixed-nav > ul >li {
+  padding :1rem;
+}
+.manga-infos{
+  font-size: 1.5rem;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .manga-presentation-box{
+    width:95%;
+  }
+  .manga-presentation-box-top{
+    display: flex;
+    flex-direction: column;
+  }
+  .manga-name{
+    width:100%;
+    display: flex;
+    align-self: center;
+  }
+  
+
+}

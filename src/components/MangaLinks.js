@@ -55,7 +55,7 @@ const MangaLinks = (props) => {
         console.log(data[props.ID].urlPerChapter[key])
         props.setChapterKey(key)
         props.setChapterId(chapterID[props.ID][key]);
-        props.setCurrentPage(1)
+        props.setCurrentPage(0)
         props.setLien(data[props.ID].urlPerChapter[key])
         console.log(chapterID[props.ID][key])
         console.log(props.lien)
@@ -66,10 +66,10 @@ const MangaLinks = (props) => {
             <nav className="sticky-nav" >
                 <ul>
                     <li style={{listStyle:"none"}} >
-                    <Link className="mangalist-link" to="/manga-tendances">:Tendances</Link>
+                    <Link className="mangalist-link" to="/manga-tendances">Tendances</Link>
                     </li>
                     <li>
-                    <Link className="mangalist-link" to="/">:Mangas</Link>
+                    <Link className="mangalist-link" to="/">Mangas</Link>
                     </li>
                 </ul>
             </nav>
